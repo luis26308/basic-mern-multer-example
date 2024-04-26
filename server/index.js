@@ -6,8 +6,8 @@ import 'dotenv/config'
 
 
 const app = express()
-const PORT = process.env.PORT
-const MONGO_URI = process.env.MONGO_URI
+const PORT = 8000
+const MONGO_URI = "your mongo uri"
 
 app.use(cors())
 

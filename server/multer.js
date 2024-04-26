@@ -2,7 +2,7 @@ import {GridFsStorage} from 'multer-gridfs-storage'
 import multer from 'multer'
 import 'dotenv/config'
 
-const MONGO_URI = process.env.MONGO_URI
+const MONGO_URI = 'your mongo uri'
 
 const storage = new GridFsStorage({
     url: MONGO_URI, 
